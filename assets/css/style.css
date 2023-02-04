@@ -39,7 +39,7 @@ body {
     border-radius: 2px;
     background-color: white;
 }
-.active{
+.active {
     background-color: #2D2D2D;
     
     box-shadow: 0 0 3px white;
@@ -208,13 +208,6 @@ margin-left: 20px;
     position: absolute;
     bottom: 0;
 }
-#g_knowledge .bg .cell {
-    width: 210px;
-    position: absolute;
-    bottom: 31px;
-    left: 30px;
-}
-
 #g_knowledge .texto {
     max-width: 80%;
     display: flex;
@@ -373,9 +366,6 @@ footer p{
         align-items: center;
         z-index: 1;
         opacity: 0.4;
-    }
-    #g_knowledge .bg .cell {
-        display: none;
     }
     #g_knowledge .bg .laptop {
         bottom: auto;
