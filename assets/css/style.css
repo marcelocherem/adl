@@ -262,6 +262,9 @@ footer p{
         opacity: 0.3;
         z-index: 1;
     }
+    .presentation .present .photo img {
+        width:454;
+    }
 }
 @media (max-width:1199px) {
     .first .img_bg {
