@@ -1,0 +1,420 @@
+*{scroll-behavior: smooth;}
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #2D2D2D;
+    color: white;
+}
+.navbar {
+    padding: 0;
+    background-color: #2D2D2D;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.first {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    
+}
+.first .img_bg {
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 0%;
+    background-image: url("../images/pc\ notebook.jpg");
+    background-repeat: no-repeat;
+}
+.first .img_bg .bg {
+    margin-top: 48px;
+    width:100%;
+}
+.first .photo_name {
+    position: absolute;
+    margin-top: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.first .photo_name .photo {
+    max-width: 292px;
+}
+.first .photo_name img {
+    width: 100%;
+}
+.presentation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+}
+.presentation .present {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 88px;
+    position: relative;
+}
+.presentation .present .photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.presentation .present .photo img{
+    width: 515px;
+}
+.presentation .present .text .line{
+    position: absolute;
+    width: 756px;
+    height: 5px;
+    background-color: #000;
+    left: -10px;
+}
+.presentation .present .text {
+    margin-left: 50px;
+}
+.presentation .present .text h1 {
+    font-size: 50px;
+    color: #000;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.presentation .present .text p {
+    color: #000;
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 300;
+    margin-right: 40px;
+    line-height: 1.5;
+}
+#g_knowledge {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#g_knowledge .sq1{
+    position: absolute;
+    width: 627px;
+    height: 5px;
+    background-color: white;
+    right: 0;
+    top: 120px;
+}
+#g_knowledge h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    right: 280px;
+    top: 40px;
+}
+#g_knowledge .bg {
+    position: absolute;
+    width: 740px;
+    height: 100%;
+    overflow: hidden;
+    right: 0;
+    
+}
+#g_knowledge .bg .laptop {
+    width: 1010px;
+    position: absolute;
+    bottom: 0;
+}
+#g_knowledge .bg .laptop::after{
+    content: '';
+    width: 740;
+    height: 740;
+    background-color: red;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#g_knowledge .texto {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+    margin-top: 48px;
+    gap: 60px;
+}
+#g_knowledge .texto h3 {
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0;
+}
+#g_knowledge .texto .lang {
+    margin: 60px 0 ;
+}
+#g_knowledge .texto table {
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+}
+#g_knowledge .texto table tr td {
+    width: 149px;
+}
+#g_knowledge .texto table .level {
+    width: 290px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    margin: 9px 0 0 20px;
+}
+#g_knowledge .texto table .level .level_up {
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+#g_knowledge .texto table .level .level_pt {
+    width: 100%;
+}
+#g_knowledge .texto table .level .level_it {
+    width: 60%;
+}
+#g_knowledge .texto table .level .level_en {
+    width: 70%;
+}
+#g_knowledge .texto table .level .level_ps {
+    width: 90%;
+}
+#g_knowledge .texto table .level .level_il {
+    width: 90%;
+}
+#g_knowledge .texto table .level .level_ht {
+    width: 80%;
+}
+#g_knowledge .texto table .level .level_cs {
+    width: 75%;
+}
+#contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#contact img {
+    margin-top: 48px;
+}
+#contact h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#contact a {
+    padding: 10px 0;
+    width: 400px;
+    border: solid white 1px;
+    border-radius: 60px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#contact h3,
+#contact h4 {
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0;
+}
+#contact h4 {
+    margin-top: 10px;
+}
+#contact a:hover {
+    background-color: aliceblue;
+    color: #2D2D2D;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: right;
+}
+footer p{
+    color: white;
+    margin-right: 10px;
+}
+@media (max-width:1420px) {
+    #g_knowledge .texto {
+        margin-left: 5%;
+        z-index: 2;
+    }
+    #g_knowledge .bg {
+        opacity: 0.3;
+        z-index: 1;
+    }
+}
+@media (max-width:1199px) {
+    .first .img_bg {
+        opacity: 0.2;
+        height: 100%;
+        background-size: auto 100%;
+    }
+    .first .photo_name {
+        justify-content: center;
+        margin-top: 200px;
+        position: absolute;
+    }
+    .presentation .present {
+        flex-direction: column;
+        padding-top: 0;
+        position: relative;
+        align-items: center;
+    }
+    .presentation .present .photo{
+        width: 80%;
+        height: 400px;
+        overflow: hidden;
+        align-items: start;
+        position: absolute;
+        top: 120px;
+
+    }
+    .presentation .present .photo img {
+        height: 250%;
+        width: auto;
+        position: absolute;
+        top: -20px;
+    }
+    .presentation .present .text {
+        width: 80%;
+        margin: 20px 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .presentation .present .text h1 {
+        margin-top: 40px;
+    }
+    .presentation .present .text .line {
+        display: none;
+    }
+    .presentation .present .text p {
+        margin: 420px auto auto;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width:935px) {
+    #g_knowledge {
+        justify-content: center;
+    }
+    #g_knowledge .texto {
+        margin: auto;
+    }
+    #g_knowledge h1 {
+        right: auto;
+    }
+    #g_knowledge .texto h3 {
+        text-align: center;
+    }
+    #g_knowledge .sq1 {
+        display: none;
+    }
+    #g_knowledge .bg {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #g_knowledge .bg .laptop {
+        width: 100%;
+        bottom: auto;
+    }
+}
+@media (max-width:737px) {
+    .presentation .present .photo {
+        height: 230px;
+    }
+    .presentation .present .text p {
+        margin-top: 270px;
+        font-size: 27px;
+    }
+    .presentation .present .photo img {
+        top: -5px;
+    }
+}
+@media (max-width:534px) {
+    #g_knowledge .texto table .level {
+        width: 100%;
+        margin-left: 0;
+    }
+    #g_knowledge .texto {
+        margin-top: 200px;
+    }
+    #g_knowledge .texto h3 {
+        font-size: 25px;
+    }
+    #g_knowledge .texto table {
+        font-size: 25px;
+    }
+    #g_knowledge .texto table tr td:nth-child(2n+1){
+        width: 115px;
+    }
+    #g_knowledge h1 {
+        text-align: center;
+    }
+    #contact img {
+        margin: 48px 5% 0;
+    }
+    #contact .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    #contact img {
+        margin-top: 0;
+    }
+    #contact .whatsapp,
+    #contact .email {
+        width: 60px;
+        height: 60px;
+    } 
+    #contact .whatsapp h3{
+        display: none;
+    }
+    #contact .email h3{
+        display: none;
+    }
+    #contact .whatsapp {
+        display: inline-block;
+        background-image: url('../images/wpp.png');
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+    }
+    #contact .email {
+        display: inline-block;
+        background-image: url('../images/email.png');
+        background-size: 50px 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        transition: 0.2s;
+    }
+    #contact:hover {
+        box-shadow: 1px 1px 30px white;
+    }
+}
+
+
