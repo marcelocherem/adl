@@ -348,7 +348,7 @@ footer p{
     }
     .presentation .present .text p {
         margin-top: 270px;
-        font-size: 27px;
+        font-size: 20px;
     }
     .presentation .present .photo img {
         top: -5px;
@@ -411,9 +411,6 @@ footer p{
         background-position: center;
         border: none;
         transition: 0.2s;
-    }
-    #contact:hover {
-        box-shadow: 1px 1px 30px white;
     }
 }
 
