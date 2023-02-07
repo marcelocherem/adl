@@ -34,12 +34,12 @@ body {
 }
 .first .photo_name {
     position: absolute;
-    margin-top: 550px;
     display: flex;
     flex-direction: row;
     align-items: end;
     gap: 20px;
     flex-wrap: wrap;
+    bottom: 30px;
 }
 .first .photo_name .photo {
     max-width: 292px;
