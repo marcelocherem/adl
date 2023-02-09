@@ -188,20 +188,20 @@ body {
     width: 70%;
 }
 #g_knowledge .texto table .level .level_ps {
-    width: 90%;
+    width: 100%;
 }
 #g_knowledge .texto table .level .level_il {
-    width: 90%;
+    width: 100%;
 }
 #g_knowledge .texto table .level .level_ht {
-    width: 80%;
+    width: 90%;
 }
 #g_knowledge .texto table .level .level_cs {
-    width: 75%;
+    width: 85%;
 }
 
 #g_knowledge .texto table .level .level_bs {
-    width: 95%;
+    width: 85%;
 }
 #contact {
     width: 100%;
