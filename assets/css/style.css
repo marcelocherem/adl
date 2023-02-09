@@ -199,6 +199,10 @@ body {
 #g_knowledge .texto table .level .level_cs {
     width: 75%;
 }
+
+#g_knowledge .texto table .level .level_bs {
+    width: 95%;
+}
 #contact {
     width: 100%;
     height: 100vh;
