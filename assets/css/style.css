@@ -280,6 +280,7 @@ footer p{
         justify-content: center;
         margin-top: 200px;
         position: absolute;
+        bottom: auto;
     }
     .presentation .present {
         flex-direction: column;
